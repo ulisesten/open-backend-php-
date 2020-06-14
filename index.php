@@ -1,4 +1,5 @@
 <?php
-    echo 'Hello world';
-    echo $_SERVER['REQUEST_METHOD'];
+    include './server/server.php';
+
+    server();
 ?>
