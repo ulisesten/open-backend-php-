@@ -1,6 +1,6 @@
 <?php
     function server(){
-        if( $_SERVER['RE}QUEST_METHOD'] == 'GET' )
+        if( $_SERVER['REQUEST_METHOD'] == 'GET' )
             echo 'Method is GET';
     }
 ?>
