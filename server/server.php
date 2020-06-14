@@ -2,7 +2,7 @@
     function server(){
 
         $method = $_SERVER['REQUEST_METHOD'];
-        $uri = $_SERVER['REQUEST_URI'];
+        $uri = $_SERVER['DOCUMENT_ROOT'];
         $home = include('./get/home.php');
 
         if( $method == 'GET' )
