@@ -8,7 +8,7 @@
         if( $method == 'GET' )
             echo 'Method is GET<br>';
 
-            if ( $uri == 'home')
+            if ( $uri == '/home')
                 $home.message();
 
         else
