@@ -1,6 +1,18 @@
 <?php
     function server(){
-        if( $_SERVER['REQUEST_METHOD'] == 'GET' )
-            echo 'Method is GET';
+
+        $method = $_SERVER['REQUEST_METHOD'];
+        $uri = $_SERVER['REQUEST_URI'];
+
+        if( $method == 'GET' )
+            echo 'Method is GET\n';
+
+        else
+        if ( $method == 'POST')
+            echo 'Method is POST';
+
+
+        echo $uri;
+        
     }
 ?>
